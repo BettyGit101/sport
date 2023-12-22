@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #53a2ca;
+  --color-primary-light: #2280b0;
+  --color-primary-dark:  #074564;
+  --color-secondary:  #03524b;
+  --color-error: #a71933;
+
+  --font-size-large: 8rem;
+  --font-size-small: 6rem;
+}
+
+
+*,
+*::after,
+*::before {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family:sans-serif;
+  font-weight: 400;
+}

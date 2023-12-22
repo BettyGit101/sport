@@ -1,0 +1,16 @@
+.grid__columnNames {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 20rem 20rem 20rem;
+    background-color:var(--color-primary-dark);
+    grid-template-areas:"col1 col2 col3";
+}
+
+.grid__item {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    background-color: var(--color-primary);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }

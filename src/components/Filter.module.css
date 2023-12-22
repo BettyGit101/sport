@@ -1,0 +1,11 @@
+.filter {
+    flex: 0 1 10vh;
+    display: flex;
+}
+
+@media (width < 1400px) {
+    .filter {
+        display: block;
+        text-align: center;
+    }
+}

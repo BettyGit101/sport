@@ -1,0 +1,17 @@
+.container__content {
+  gap: 2rem;
+  display:flex;
+  justify-content: center;
+}
+
+@media (width < 1340px) {
+    .container__content {
+       flex-wrap:wrap;
+    }
+}
+
+.container__spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}

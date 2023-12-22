@@ -1,0 +1,42 @@
+.pagination {
+    flex: 0 1 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.pagination__btn {
+    width: 4rem;
+    height: 4rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: transparent;
+    color: black;
+    border-color: #902424;
+    margin-bottom: 2rem;
+}
+
+.pagination__btn:active {
+    font-weight: 900;
+    background: var(--color-primary);
+}
+
+.pagination__btn:disabled {
+   
+   
+    color: black;
+    border-color: #902424;
+}
+
+.pagination__btn--selected {
+    background-color: var(--color-primary);
+}
+
+.pagination__btn--disabled {
+    background: lightgray;
+    cursor:default;
+}
